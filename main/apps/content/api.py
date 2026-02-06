@@ -30,3 +30,13 @@ def get_models(request, min_price: int = None, max_price: int = None, category :
     return {
         "models": [m.to_json() for m in models]
     }
+
+@router.post("create_category")
+def create_category(request, name: str = None, description: str = None, icon: str = None):
+    category = Category.objects.create(name=name, description=description, icon=icon)
+    return category.to_json()
+
+@router.post("create_model")
+def create_model(request, name: str = None, description: str = None, price: float = None, category: str = None, image: str = None):
+    model = Model.objects.create(name=name, description=description, price=price, category=Category.objects.get(name=category), image=image)
+    return model.to_json()
