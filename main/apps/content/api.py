@@ -1,18 +1,23 @@
-from ninja import Router
+from ninja import Router, Schema
 from .models import Category, Model
 
 router = Router()
 
-@router.get("categories")
+
+class CategoryOut(Schema):
+    id: int
+    name: str
+    description: str
+    icon: str | None = None
+
+@router.get("categories", response=list[CategoryOut])
 def get_categories(request, contain: str = None):
     categories = Category.objects.all()
-    
+
     if contain is not None:
         categories = categories.filter(name__icontains=contain)
-    
-    return {
-        "categories": [c.to_json() for c in categories]
-    }
+
+    return categories
 
 @router.get("models")
 def get_models(request, min_price: int = None, max_price: int = None, category : str = None):
