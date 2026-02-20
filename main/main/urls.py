@@ -6,4 +6,5 @@ from ninja import NinjaAPI, Router
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/", include("apps.api.urls")),
+    path("rf/", include("apps.django_rest_framework.urls")),
 ]

@@ -6,6 +6,7 @@ from django.conf import settings
 from django.core.exceptions import ValidationError
 
 
+
 api = NinjaAPI(docs_url="/docs" if settings.DEBUG else None)
 
 

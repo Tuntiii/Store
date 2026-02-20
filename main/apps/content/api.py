@@ -1,4 +1,5 @@
-from ninja import Router, Schema
+
+from ninja import Schema, Router
 from .models import Category, Model
 
 router = Router()
@@ -29,7 +30,7 @@ class ModelIn(Schema):
     price: float
     category: str
     image: str | None = None
-
+'''
 @router.get("categories", response=list[CategoryOut])
 def get_categories(request, contain: str = None):
     categories = Category.objects.all()
@@ -63,3 +64,4 @@ def create_category(request, data: CategoryIn):
 def create_model(request, data: ModelIn):
     model = Model.objects.create(name=data.name, description=data.description, price=data.price, category=Category.objects.get(name=data.category), image=data.image)
     return model
+'''
