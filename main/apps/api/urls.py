@@ -1,23 +1,10 @@
-from ninja import NinjaAPI
-from apps.content.api import router as content_router
 from django.urls import path
-from django.http import JsonResponse
-from django.conf import settings
-from django.core.exceptions import ValidationError
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+from apps.content.views import CategoryListCreateView, ModelListCreateView
 
-
-api = NinjaAPI(docs_url="/docs" if settings.DEBUG else None)
-
-
-@api.exception_handler(ValidationError)
-def validation_errors(request, exc: ValidationError):
-
-    return JsonResponse(
-        {"error": {"message": [e["msg"] for e in exc.errors]}}, status=422
-    )
-
-
-api.add_router("/", content_router, tags=["Content"])
-
-
-urlpatterns = [path("", api.urls)]
+urlpatterns = [
+    path('categories/', CategoryListCreateView.as_view(), name='category-list-create'),
+    path('models/', ModelListCreateView.as_view(), name='model-list-create'),
+    path('schema/', SpectacularAPIView.as_view(), name='schema'),
+    path('docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+]
