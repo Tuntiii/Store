@@ -24,7 +24,7 @@ class ModelReadSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'description', 'price', 'category', 'image']
 
 
-class ModelWriteSerializer(serializers.ModelSerializer):
+class ModelCreateSerializer(serializers.ModelSerializer):
     category = serializers.SlugRelatedField(
         slug_field='name',
         queryset=Category.objects.all(),

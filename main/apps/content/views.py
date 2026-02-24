@@ -1,6 +1,6 @@
 from rest_framework.generics import ListCreateAPIView
 from .models import Category, Model
-from .serializers import CategorySerializer, ModelReadSerializer, ModelWriteSerializer
+from .serializers import CategorySerializer, ModelReadSerializer, ModelCreateSerializer
 
 
 class CategoryListCreateView(ListCreateAPIView):
@@ -17,7 +17,7 @@ class CategoryListCreateView(ListCreateAPIView):
 class ModelListCreateView(ListCreateAPIView):
     def get_serializer_class(self):
         if self.request.method == 'POST':
-            return ModelWriteSerializer
+            return ModelCreateSerializer
         return ModelReadSerializer
 
     def get_queryset(self):
@@ -27,9 +27,9 @@ class ModelListCreateView(ListCreateAPIView):
         category = self.request.query_params.get('category')
 
         if min_price is not None:
-            queryset = queryset.filter(price__gte=min_price)
+            queryset = queryset.filter(price__gte=float(min_price))
         if max_price is not None:
-            queryset = queryset.filter(price__lte=max_price)
+            queryset = queryset.filter(price__lte=float(max_price))
         if category is not None:
             queryset = queryset.filter(category__name=category)
 
