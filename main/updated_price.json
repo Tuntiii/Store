@@ -1,0 +1,44 @@
+{
+  "Laptops": [
+    {
+      "name": "ASUS ROG Zephyrus G14",
+      "description": "Compact gaming laptop with AMD Ryzen 9, RTX 4060, and 165Hz QHD display.",
+      "price": 1259.991,
+      "category": "Laptops",
+      "image": null,
+      "id": 19
+    },
+    {
+      "name": "Dell XPS 15",
+      "description": "Premium Windows laptop with OLED display, Intel Core i9, and NVIDIA RTX 4070.",
+      "price": 1709.991,
+      "category": "Laptops",
+      "image": null,
+      "id": 17
+    },
+    {
+      "name": "HP Spectre x360",
+      "description": "Versatile 2-in-1 laptop with OLED touchscreen, Intel Evo platform, and premium build.",
+      "price": 1169.991,
+      "category": "Laptops",
+      "image": null,
+      "id": 20
+    },
+    {
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "description": "Business ultrabook with military-grade durability, excellent keyboard, and all-day battery.",
+      "price": 1349.991,
+      "category": "Laptops",
+      "image": null,
+      "id": 18
+    },
+    {
+      "name": "MacBook Air M3",
+      "description": "Ultra-thin laptop with Apple M3 chip, 18-hour battery, and stunning Liquid Retina display.",
+      "price": 989.991,
+      "category": "Laptops",
+      "image": null,
+      "id": 16
+    }
+  ]
+}
