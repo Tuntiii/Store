@@ -1,0 +1,43 @@
+category,name,description,price,image,id
+Laptops,ASUS ROG Zephyrus G14,"Compact gaming laptop with AMD Ryzen 9, RTX 4060, and 165Hz QHD display.",1399.99,,19
+Laptops,Dell XPS 15,"Premium Windows laptop with OLED display, Intel Core i9, and NVIDIA RTX 4070.",1899.99,,17
+Laptops,HP Spectre x360,"Versatile 2-in-1 laptop with OLED touchscreen, Intel Evo platform, and premium build.",1299.99,,20
+Laptops,Lenovo ThinkPad X1 Carbon,"Business ultrabook with military-grade durability, excellent keyboard, and all-day battery.",1499.99,,18
+Laptops,MacBook Air M3,"Ultra-thin laptop with Apple M3 chip, 18-hour battery, and stunning Liquid Retina display.",1099.99,,16
+Smart Home,Amazon Echo Dot 5th Gen,"Compact smart speaker with Alexa, improved audio, and a built-in temperature sensor.",49.99,,38
+Smart Home,Google Nest Hub 2nd Gen,"Smart display with Google Assistant, sleep tracking, and smart home controls.",99.99,,39
+Smart Home,Philips Hue Starter Kit,"Smart LED bulb starter kit with bridge, supporting 16 million colors and voice control.",149.99,,41
+Smart Home,TP-Link Tapo Smart Plug,"Wi-Fi smart plug with energy monitoring, voice control, and scheduling via app.",17.99,,40
+Tablets,Amazon Kindle Paperwhite,"Waterproof e-reader with 6.8"" glare-free display and weeks of battery life.",139.99,,23
+Tablets,Microsoft Surface Pro 9,"Versatile Windows tablet that replaces your laptop, with detachable keyboard support.",999.99,,24
+Tablets,Samsung Galaxy Tab S9,"Android flagship tablet with AMOLED display, IP68 water resistance, and S Pen included.",799.99,,22
+Tablets,"iPad Pro 12.9""","Apple's most powerful iPad with M2 chip, Liquid Retina XDR display, and Apple Pencil support.",1099.99,,21
+Phone Accessories,Anker 65W USB-C Charger,"Compact GaN charger with 65W output, foldable plug, and supports laptops and phones.",35.99,,50
+Phone Accessories,Apple MagSafe Charger,Magnetic wireless charger for iPhone with up to 15W fast charging.,38.99,,51
+Phone Accessories,Belkin USB-C to USB-C Cable,Braided 2m USB-C cable supporting 100W charging and USB 3.2 data transfer speeds.,24.99,,53
+Phone Accessories,Spigen Tough Armor Case,"Military-grade protection case compatible with iPhone 15, with kickstand and air cushion.",19.99,,52
+Headphones & Earbuds,Apple AirPods Pro 2,"True wireless earbuds with active noise cancellation, adaptive transparency, and H2 chip.",249.99,,26
+Headphones & Earbuds,Jabra Evolve2 65,Professional wireless headset optimized for calls and concentration in busy workplaces.,299.99,,29
+Headphones & Earbuds,Samsung Galaxy Buds2 Pro,"Premium wireless earbuds with 360 audio, ANC, and seamless Galaxy device integration.",179.99,,27
+Headphones & Earbuds,Sennheiser HD 560S,Open-back audiophile headphones with natural sound and wide soundstage for home listening.,199.99,,28
+Headphones & Earbuds,Sony WH-1000XM5,Industry-leading noise canceling headphones with 30-hour battery and crystal clear calls.,349.99,,25
+Monitors,BenQ PD2725U,"4K designer monitor with Thunderbolt 4, hardware calibration, and wide color gamut.",799.99,,33
+Monitors,Dell UltraSharp U2722D,"27"" 4K USB-C monitor with exceptional color accuracy, ideal for creative professionals.",579.99,,31
+Monitors,"LG 27GP850-B 27""","Fast IPS gaming monitor with 165Hz, 1ms response time, and Nano IPS technology.",349.99,,30
+Monitors,"Samsung Odyssey G7 32""",Curved QLED gaming monitor with 240Hz refresh rate and 1000R curvature for immersion.,699.99,,32
+Cameras,Canon EOS R50,Compact mirrorless camera perfect for beginners with 24.2MP and 4K video recording.,679.99,,47
+Cameras,DJI Pocket 3,"Compact gimbal camera with 1"" CMOS sensor, 4K 120fps, and all-day battery life.",519.99,,49
+Cameras,GoPro HERO12 Black,"Rugged action camera with 5.3K video, HyperSmooth 6.0 stabilization, and waterproof design.",399.99,,48
+Cameras,Sony Alpha a7 IV,"Full-frame mirrorless camera with 33MP sensor, 4K 60fps video, and advanced autofocus.",2499.99,,46
+Gaming,DualSense Wireless Controller,"PlayStation 5 controller with haptic feedback, adaptive triggers, and built-in microphone.",69.99,,45
+Gaming,Nintendo Switch OLED,"Hybrid gaming console with vibrant 7"" OLED screen, enhanced audio, and 64GB storage.",349.99,,44
+Gaming,PlayStation 5,"Sony's next-gen gaming console with ultra-high-speed SSD, ray tracing, and 4K gaming.",499.99,,42
+Gaming,Xbox Series X,"Microsoft's flagship console with 12 teraflops of power, 4K gaming, and Game Pass.",499.99,,43
+Smartphones,Google Pixel 8,Google's pure Android phone with exceptional camera and 7 years of software updates.,699.99,,14
+Smartphones,OnePlus 12,"Flagship killer with Snapdragon 8 Gen 3, 100W fast charging, and Hasselblad-tuned camera.",799.99,,15
+Smartphones,Samsung Galaxy S24 Ultra,"Samsung's top-tier phone with built-in S Pen, 200MP camera, and AI-powered features.",1199.99,,13
+Smartphones,iPhone 15 Pro,"Apple's flagship smartphone with A17 Pro chip, titanium design, and 48MP camera system.",999.99,,12
+Keyboards & Mice,Keychron Q1 Pro,"Wireless mechanical keyboard with QMK/VIA support, aluminum body, and hot-swappable switches.",199.99,,34
+Keyboards & Mice,Logitech MX Keys,"Smart wireless keyboard with backlit keys, multi-device support, and USB-C charging.",109.99,,35
+Keyboards & Mice,Logitech MX Master 3S,"Advanced wireless mouse with MagSpeed scroll wheel, 8K DPI sensor, and silent clicks.",99.99,,37
+Keyboards & Mice,Razer DeathAdder V3,Ergonomic gaming mouse with Focus Pro 30K sensor and ultra-lightweight design.,69.99,,36
