@@ -3,6 +3,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from apps.content.views import CategoryListCreateView, ModelListCreateView
 
 urlpatterns = [
+    
     path('categories/', CategoryListCreateView.as_view(), name='category-list-create'),
     path('models/', ModelListCreateView.as_view(), name='model-list-create'),
     path('schema/', SpectacularAPIView.as_view(), name='schema'),
