@@ -19,19 +19,6 @@ class UserAdmin(BaseUserAdmin):
     list_filter   = ("role", "is_verified", "is_staff")
     search_fields = ("email", "username")
     ordering      = ("-date_joined",)
-
-    fieldsets = (
-        (None,          {"fields": ("email", "password")}),
-        ("Personal",    {"fields": ("username", "bio", "avatar")}),
-        ("Role",        {"fields": ("role", "is_verified")}),
-        ("Permissions", {"fields": ("is_active", "is_staff", "is_superuser", "groups", "user_permissions")}),
-    )
-    add_fieldsets = (
-        (None, {
-            "classes": ("wide",),
-            "fields":  ("email", "username", "role", "password1", "password2"),
-        }),
-    )
     
 @admin.register(FreelancerProfile)
 class FreelancerProfileAdmin(admin.ModelAdmin):
